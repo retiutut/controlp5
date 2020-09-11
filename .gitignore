@@ -9,4 +9,4 @@
 .buildpath
 .classpath
 .project
-src/controlP5/build/
+src/controlP5/build/*
