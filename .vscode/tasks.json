@@ -6,7 +6,7 @@
         {
             "label": "build jar",
             "type": "shell",
-            "command": "echo Compiling and building jar && cd ${workspaceFolder}/src/controlp5/ && javac -cp \"${workspaceFolder}/core.jar\" -d ./build *.java && jar cvf ${workspaceFolder}/library/controlP5.jar -C ${workspaceFolder}/src/controlP5/build .",
+            "command": "echo Compiling and building jar && cd ${workspaceFolder}/src/controlp5/ && javac -cp \"${workspaceFolder}/libs/core.jar\" -d ./build *.java && jar cvf ${workspaceFolder}/library/controlP5.jar -C ${workspaceFolder}/src/controlP5/build .",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
