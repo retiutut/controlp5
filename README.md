@@ -1,5 +1,9 @@
 # ControlP5
 
+**This fork of the original ControlP5 repo allows users to modify, compile, and export a new Jar using Visual Studio Code Tasks.**
+
+**To build, press CMD+Shift+B (Mac) or Control+Shift+B (Windows/Linux). Then, copy to Processing's Library folder, typically found in `Documents`. That's it!**
+
 ControlP5 is a GUI library written by [Andreas Schlegel](http://www.sojamo.de) for the programming environment [Processing](http://www.processing.org). 
 
 The range of available controllers includes Slider, Button, Toggle, Knob, Textfield, RadioButton, Checkbox, Lists amongst others. These controllers can be easily added to a processing sketch, or displayed inside a separate control window. They can be organized in tabs or groups as well as rendered into PGraphics buffers. The state of a controller can be saved to file in JSON format.
