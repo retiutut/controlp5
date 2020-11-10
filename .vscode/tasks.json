@@ -6,7 +6,10 @@
         {
             "label": "build jar",
             "type": "shell",
-            "command": "echo Compiling and building jar && cd ${workspaceFolder}/src/controlp5/ && javac -cp \"${workspaceFolder}/libs/core.jar\" -d ./build *.java && jar cvf ${workspaceFolder}/library/controlP5.jar -C ${workspaceFolder}/src/controlP5/build .",
+            "command": "mkdir -p  ${workspaceFolder}/src/controlP5/build && echo Compiling and building jar && cd ${workspaceFolder}/src/controlp5/ && javac -cp \"${workspaceFolder}/libs/core.jar\" -d ./build *.java && jar cvf ${workspaceFolder}/library/controlP5.jar -C ${workspaceFolder}/src/controlP5/build .",
+            "windows": {
+                "command": "if exist \"${workspaceFolder}\\src\\controlP5\\build\" rmdir /Q /S ${workspaceFolder}\\src\\controlP5\\build && md ${workspaceFolder}\\src\\controlP5\\build && echo Compiling and building jar && cd ${workspaceFolder}\\src\\controlp5\\ && javac -cp \"${workspaceFolder}\\libs\\core.jar\" -d .\\build *.java && jar cvf ${workspaceFolder}\\library\\controlP5.jar -C ${workspaceFolder}\\src\\controlP5\\build ."
+            },
             "problemMatcher": [],
             "group": {
                 "kind": "build",
