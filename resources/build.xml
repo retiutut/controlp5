@@ -5,7 +5,7 @@
     </description>
 
 	<property name="processing" 				   location="${user.home}/Documents/Processing/libraries"/>
-	<property name="libraryClasspath"  			   location="../libs"/>
+	<property name="libraryClasspath"  			   location="libs"/>
 	<path id="library-classpath">
 		<fileset dir="${libraryClasspath}" >
 			<include name="core.jar"/>
