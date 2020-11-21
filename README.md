@@ -378,3 +378,10 @@ Digital Object Identifiers (DOI) are the backbone of the academic reference and 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.16290.svg)](http://dx.doi.org/10.5281/zenodo.16290)
 
 Copyright 2006-2015 Andreas Schlegel
+
+## <a name="build"></a>Build Instructions
+Recommended OS: Windows 10.
+
+1. Download and install Apache Ant using these instructions: https://mkyong.com/ant/how-to-install-apache-ant-on-windows/
+1. In command line, run `ant -buildfile resources\build.xml`. This will create a distributable zip file with jar and docs.
+1. Unzip and copy to Processing/Libraries folder, and enjoy!
