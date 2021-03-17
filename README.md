@@ -383,5 +383,5 @@ Copyright 2006-2015 Andreas Schlegel
 Recommended OS: Windows 10.
 
 1. Download and install Apache Ant using these instructions: https://mkyong.com/ant/how-to-install-apache-ant-on-windows/
-1. In command line, run `ant -buildfile resources\build.xml`. This will create a distributable zip file with jar and docs.
+1. On Windows, run `ant -buildfile resources\build.xml`. On Mac, use `ant -buildfile resources/build.xml`. This will create a distributable zip file with jar and docs.
 1. Unzip and copy to Processing/Libraries folder, and enjoy!
